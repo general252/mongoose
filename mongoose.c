@@ -6411,7 +6411,7 @@ static size_t mg_http_parse_chunk(char *buf, size_t len, char **chunk_data,
     i++;
     if (i > 6) {
       /* Chunk size is unreasonable. */
-      return 0;
+      //return 0;
     }
   }
 
